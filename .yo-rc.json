@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "sv-org-chart",
+    "libraryId": "068d87f7-d728-44df-a53d-9a2db87ef5b0",
+    "environment": "spo"
+  }
+}

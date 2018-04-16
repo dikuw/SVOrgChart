@@ -1,0 +1,22 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "569eaea2-02ca-4425-9239-5381d243f1e9",
+  "alias": "SvOrgChartWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "SV Org Chart" },
+    "description": { "default": "SV Org Chart Web Part" },
+    "officeFabricIconFontName": "Org",
+    "properties": {
+      "description": "SV Org Chart"
+    }
+  }]
+}

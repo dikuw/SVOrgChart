@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sv-org-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/svOrgChart/SvOrgChartWebPart.js",
+          "manifest": "./src/webparts/svOrgChart/SvOrgChartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": { 
+        "path": "node_modules/jquery/dist/jquery.min.js",
+        "globalName": "jquery"
+    },
+    "jOrgChart": {
+        "path": "./Scripts/jOrgChart.js",
+        "globalName": "jOrgChart",
+        "globalDependencies": ["jquery"]
+    }
+  },
+  "localizedResources": {
+    "SvOrgChartWebPartStrings": "lib/webparts/svOrgChart/loc/{locale}.js"
+  }
+}

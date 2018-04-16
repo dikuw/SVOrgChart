@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sv-org-chart-client-side-solution",
+    "id": "068d87f7-d728-44df-a53d-9a2db87ef5b0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/sv-org-chart.sppkg"
+  }
+}
